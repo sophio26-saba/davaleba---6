@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    height: 96px;
+    margin: 0 130px;
+
+}
+
+.logo-div {
+    display: flex;
+    gap: 4px;
+}
+
+.logo {
+    width: 42px;
+    height: 29px;
+    margin-top: 4px;
+}
+
+h2 {
+    color: #37393f;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+a {
+    color: #37393f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+button {
+    display: flex;
+    padding: 21px 35px 22px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #6b77e5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -22px;
+}
+
+.vector {
+    height: 4px;
+    width: 8px;
+    margin-top: 10px;
+}
+
+/* section1 */
+.section1 {
+    margin-top: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work {
+    color: #37393f;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+h3 {
+    color: #37393f;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%;
+
+}
+
+.section1-bottom {
+    margin-top: 41px;
+    display: flex;
+    gap: 31px;
+}
+
+.section1-card {
+    display: flex;
+    width: 383px;
+    padding: 58px 43px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #f4f4f4;
+}
+
+h4 {
+    color: #37393f;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;
+    /* 31.75px */
+}
+
+.card-text {
+    color: #7d7d7d;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.187%;
+    /* 26.314px */
+    margin-top: 16px;
+}
+
+h5 {
+    color: #6b77e5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 37px;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+/* section2 */
+.section2 {
+
+
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 300px;
+    background-image: url(./poto/image\ 72.jpg);
+    color: darkgreen
+}
+
+.section2-card-text {
+    color: #37393f;
+    font-size: 30px;
+
+
+}
+
+.play {
+    width: 64.5px;
+    height: 64.5px;
+    margin-top: 47px;
+}
+
+/* section3 */
+.section3 {
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.section3-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    margin-top: 31px;
+}
+
+.person-div {
+    width: 386px;
+    height: 532px;
+    padding: 396px 22px 22px 22px;
+}
+
+.one {
+    background-image: url(./poto/1.png);
+}
+
+.two {
+    background-image: url(./poto/2.png);
+}
+
+.three {
+    background-image: url(./poto/3.png);
+    padding: 396px 18px 22px 18px;
+}
+
+.person-info {
+    background-color: #fff;
+    padding: 24px 69px;
+}
+
+.name {
+    color: #37393f;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.job {
+    color: #7d7d7d;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.187%;
+    /* 24.334px */
+}
